@@ -1,6 +1,5 @@
 # I present to you, my meme...
 
-![](my_meme.png)
 
 ## Drake _meme_ Inspiration
 The meme I created follows the existing drake hotline bling meme format, but with a stats220 spin on it. I was inspired to make this meme when thinking of ways to show my love and dedication to this course, as this is the best course with the best lecturers, markers and tutors, who teach the most interesting and useful content.
