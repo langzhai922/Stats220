@@ -16,7 +16,7 @@ library(magick)
 drake_eww <- image_read("https://static.hiphopdx.com/2015/10/drake-hotline-bling-jacket-moncler.png") %>%
   image_scale(500) %>%
   image_implode() %>%
-  image_modulate(saturation=80)
+  image_modulate(saturation = 80)
 
 drake_mmm <- image_read("https://i.imgflip.com/4wpsm3.jpg") %>%
   image_scale(500)
