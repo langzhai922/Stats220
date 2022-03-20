@@ -5,7 +5,7 @@
 The meme I created follows the existing drake hotline bling meme format, but with a stats220 spin on it. I was inspired to make this meme when thinking of ways to show my love and dedication to this course, as this is the best course with the best lecturers, markers and tutors, who teach the most interesting and useful content.
 
 ## Themes and Messages
-The beauty of the meme is that it is so simple, yet sends a strong message. The most popular stage 2 stats course, STATS20X, is amazing at teaching theory and learning about distributions. However it is **STATS220** which explores the practical side of statistics, teaching the most important software to any statistician. The facial features showing Drake's confused state while turning his head away, transitioning into a _"that hits the spot"_ expression, perfectly encapsulates the emotions of a second stage statistics student. It is only when the student takes ~~the inferior~~ STATS220, that a student fully express themselves (through memes and gifs) using all the amazing tools that R/magick can provide.
+The beauty of the meme is that it is so simple, yet sends a strong message. The most popular stage 2 stats course, STATS20X, is amazing at teaching theory and learning about distributions. However it is **STATS220** which explores the practical side of statistics, teaching the most important software to any statistician. The facial features showing Drake's confused state while turning his head away, transitioning into a _"that hits the spot"_ expression, perfectly encapsulates the emotions of a second stage statistics student. It is only when the student takes ~~the inferior~~ STATS220, that a student fully express themselves (through memes and gifs) using all the amazing tools that R/magick can provide.[^1]
 
 ```r
 
@@ -57,4 +57,4 @@ meme
 # save meme
 image_write(meme, "my_meme.png")
 ```
-[^1]: Please do not take the description above seriously :)
+[^1]: Please do not take the description seriously :)
