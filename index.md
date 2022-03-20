@@ -1,3 +1,4 @@
+library(magick)
 
 drake_eww <- image_read("https://static.hiphopdx.com/2015/10/drake-hotline-bling-jacket-moncler.png") %>%
   image_scale(500)
