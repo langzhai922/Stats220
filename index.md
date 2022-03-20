@@ -10,12 +10,17 @@ The beauty of the meme is that it is so simple, yet sends a strong message. The 
 
 library(magick)
 
+# implode image makes it look funnier
+# decrease saturation to emphasize drake_mmm
 drake_eww <- image_read("https://static.hiphopdx.com/2015/10/drake-hotline-bling-jacket-moncler.png") %>%
-  image_scale(500)
+  image_scale(500) %>%
+  image_implode() %>%
+  image_modulate(saturation=80)
 
 drake_mmm <- image_read("https://i.imgflip.com/4wpsm3.jpg") %>%
   image_scale(500)
 
+# add text to meme
 eww_text <- image_blank(width = 500, 
                           height = 500, 
                           color = "#000000") %>%
@@ -34,18 +39,20 @@ mmm_text <- image_blank(width = 500,
                  font = "Impact",
                  gravity = "center")
 
-
+# concatenate image and text
 first_row <- c(drake_eww, eww_text) %>%
   image_append()
 
 second_row <- c(drake_mmm, mmm_text) %>%
   image_append()
 
-
+# complete meme, resize
 meme <- c(first_row, second_row) %>%
   image_append(stack = TRUE) %>%
   image_scale(600)
+
 meme
 
+# save meme
 image_write(meme, "my_meme.png")
 ```
